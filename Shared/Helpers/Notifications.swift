@@ -9,12 +9,12 @@ import Foundation
 
 extension NSNotification.Name {
 
-    static let userAccountChanged = Notification.Name("userAccountChanged")
+	static let userAccountChanged = Notification.Name("userAccountChanged")
 
 }
 
 extension Notification {
 
-    static let userAccountChanged = Notification(name: .userAccountChanged)
+	static let userAccountChanged = Notification(name: .userAccountChanged)
 
 }

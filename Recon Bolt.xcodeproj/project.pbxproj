@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A2F94C6F299E836B002DB957 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F94C6E299E836B002DB957 /* Notifications.swift */; };
+		A2F94C70299E90AF002DB957 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F94C6E299E836B002DB957 /* Notifications.swift */; };
+		A2F94C71299E90B3002DB957 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F94C6E299E836B002DB957 /* Notifications.swift */; };
 		B902823426A7A8A9004B1740 /* HenrikAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B902823326A7A8A9004B1740 /* HenrikAPI.swift */; };
 		B909D294292361E0003A53D9 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B909D293292361E0003A53D9 /* AppSettings.swift */; };
 		B90B4B52267C112F00CACB95 /* CompetitiveTier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90B4B51267C112F00CACB95 /* CompetitiveTier.swift */; };
@@ -1244,6 +1246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2F94C70299E90AF002DB957 /* Notifications.swift in Sources */,
 				B939C7F02948585C00ABD0C6 /* LocalData.swift in Sources */,
 				B939C7E9294857FD00ABD0C6 /* Widgets.intentdefinition in Sources */,
 				B939C7EF2948585000ABD0C6 /* Swift+Helpers.swift in Sources */,
@@ -1417,6 +1420,7 @@
 			files = (
 				B97C8F39293C4086002F6A07 /* ValorantAPI+SwiftUI.swift in Sources */,
 				B99AA18F294B8BBA00115120 /* MatchViewData.swift in Sources */,
+				A2F94C71299E90B3002DB957 /* Notifications.swift in Sources */,
 				B97C8F51293C421F002F6A07 /* SprayAssets.swift in Sources */,
 				B99AA192294B8BCE00115120 /* MatchList.swift in Sources */,
 				B97C8F4B293C421F002F6A07 /* MissionAssets.swift in Sources */,
