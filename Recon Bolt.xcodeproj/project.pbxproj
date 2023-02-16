@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2F94C6F299E836B002DB957 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F94C6E299E836B002DB957 /* Notifications.swift */; };
 		B902823426A7A8A9004B1740 /* HenrikAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B902823326A7A8A9004B1740 /* HenrikAPI.swift */; };
 		B909D294292361E0003A53D9 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B909D293292361E0003A53D9 /* AppSettings.swift */; };
 		B90B4B52267C112F00CACB95 /* CompetitiveTier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90B4B51267C112F00CACB95 /* CompetitiveTier.swift */; };
@@ -317,6 +318,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A2F94C6E299E836B002DB957 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		B902823326A7A8A9004B1740 /* HenrikAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HenrikAPI.swift; sourceTree = "<group>"; };
 		B909D293292361E0003A53D9 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		B90B4B51267C112F00CACB95 /* CompetitiveTier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitiveTier.swift; sourceTree = "<group>"; };
@@ -768,6 +770,7 @@
 				B96A0CA2265ABBC700844674 /* SwiftUI+Helpers.swift */,
 				B9741477266F18A800892B5F /* String+Localization.swift */,
 				B939C7F7294858FB00ABD0C6 /* LocalData+SwiftUI.swift */,
+				A2F94C6E299E836B002DB957 /* Notifications.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -1377,6 +1380,7 @@
 				B95D30A726CE888400829BB6 /* RoundData.swift in Sources */,
 				B9485F87264B5BD700AC3456 /* AssetImage.swift in Sources */,
 				B9EE6E712659D30A007E28B5 /* Swift+Helpers.swift in Sources */,
+				A2F94C6F299E836B002DB957 /* Notifications.swift in Sources */,
 				B90B4B52267C112F00CACB95 /* CompetitiveTier.swift in Sources */,
 				B9FADF8526A91DC400A0CA15 /* LookupHistory.swift in Sources */,
 				B9AEB7D727B0A03F0090A203 /* PartyInfoBox.swift in Sources */,

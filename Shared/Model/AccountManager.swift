@@ -89,6 +89,7 @@ final class AccountManager: ObservableObject {
 		guard activeAccount?.id != id else { return }
 		activeAccount = try loadAccount(for: id)
 		WidgetCenter.shared.reloadAllTimelines() // some widgets might be based on the active user
+        NotificationQueue.default.enqueue(.userAccountChanged, postingStyle: .asap) // Send account changed signal on next RunLoop cycle
 	}
 	
 	private var context: StoredAccount.Context {

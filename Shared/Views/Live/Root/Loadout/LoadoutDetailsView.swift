@@ -26,6 +26,15 @@ struct LoadoutDetailsView: View {
 			.task(id: fetchedLoadout.version) {
 				loadout = .init(fetchedLoadout)
 			}
+            .onAppear {
+                Task {
+                    for await _ in NotificationCenter.default.notifications(named: .userAccountChanged) {
+                        await load {
+                            loadout = try await .init($0.getLoadout())
+                        }
+                    }
+                }
+            }
 	}
 }
 
